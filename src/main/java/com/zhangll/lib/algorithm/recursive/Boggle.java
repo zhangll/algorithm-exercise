@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * 串串字连环
  * 
- * 时间复杂度: 
+ * 时间复杂度: O(N²) 
  *
  * @author zhangll
  */
