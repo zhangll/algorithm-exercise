@@ -7,20 +7,12 @@ import org.junit.Test;
 /**
  * 串串字连环
  * 
- * 时间复杂度: O(N²) 
+ * 时间复杂度: 
  *
  * @author zhangll
  */
 public class Boggle {
 
-//	private static String[][] charMatrix = new String[][] {
-//			{ "N", "N", "N", "N", "S" }, 
-//			{ "N", "E", "E", "E", "N" },
-//			{ "N", "E", "Y", "E", "N" }, 
-//			{ "N", "E", "E", "E", "N" },
-//			{ "N", "N", "N", "N", "N" }, 
-//	};
-//	
 	private static String[][] charMatrix = new String[][] {
                 { "U", "R", "L", "P", "M" }, 
                 { "X", "P", "R", "E", "T" },
@@ -31,10 +23,6 @@ public class Boggle {
 
 	@Test
 	public void testHasWord() throws Exception {
-//		assertEquals(true, hasWord(2, 2, "yes"));
-//		assertEquals(true, hasWord(2, 2, "yen"));
-//		assertEquals(false, hasWord(2, 2, "NYS"));
-
 		assertEquals(true, hasWord(1, 1, "PRETTY"));
 		assertEquals(true, hasWord(2, 0, "GIRL"));
 		assertEquals(true, hasWord(0, 3, "REPEAT"));
